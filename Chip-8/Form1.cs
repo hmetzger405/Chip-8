@@ -12,6 +12,8 @@ namespace Chip_8
             this.DoubleBuffered = true;
 
             this.ClientSize = new Size(64 * 15, 32 * 15);
+
+            this.Text = "Chip - 8 Emulator";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -180,6 +182,8 @@ namespace Chip_8
                 chip.LoadRom(openFileDialog.FileName);
 
                 timer1.Start();
+
+                this.Text = $"{System.IO.Path.GetFileNameWithoutExtension(openFileDialog.FileName)}";
             }
         }
 

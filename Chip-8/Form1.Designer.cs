@@ -56,7 +56,7 @@
             fIleToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openRomToolStripMenuItem });
             fIleToolStripMenuItem.Name = "fIleToolStripMenuItem";
             fIleToolStripMenuItem.Size = new Size(55, 29);
-            fIleToolStripMenuItem.Text = "FIle";
+            fIleToolStripMenuItem.Text = "File";
             fIleToolStripMenuItem.Click += fIleToolStripMenuItem_Click_1;
             // 
             // openRomToolStripMenuItem
