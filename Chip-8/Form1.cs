@@ -32,6 +32,7 @@ namespace Chip_8
 
             Brush pixelBrush = Brushes.Green;
 
+            int scale = 15;
 
             for (int i = 0; i < 32; i++)
             {

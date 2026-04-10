@@ -399,7 +399,6 @@ namespace Chip_8
         public void case0xF(ushort opcode)
         {
             int x;
-            int y;
             switch (opcode & 0x00FF)
             {
                 case 0x07:
