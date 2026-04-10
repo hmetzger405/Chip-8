@@ -39,7 +39,7 @@ This emulator maps the Chip-8 keypad to the left side of a Standard QWERTY keybo
 
 
 
-# Loading a Rom
+## Loading a Rom
 
 * **File -> Open ROM**: Load a .ch8 file
 
